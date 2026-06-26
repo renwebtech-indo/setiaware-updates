@@ -1,12 +1,12 @@
 {
-"appName": "Setiaware",
-"latestVersion": "1.0.12",
-"releaseDate": "2026-06-25",
-"packageFile": "Setiaware_Update_1.0.12.zip",
-"packageUrl": "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.12/Setiaware_Update_1.0.12.zip",
-"requiresRestart": true,
-"overwriteConfig": false,
-"changelog": [
-"Release 1.0.12"
-]
+    "appName":  "Setiaware",
+    "latestVersion":  "1.0.13",
+    "releaseDate":  "2026-06-26",
+    "packageFile":  "Setiaware_Update_1.0.13.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.13/Setiaware_Update_1.0.13.zip",
+    "requiresRestart":  true,
+    "overwriteConfig":  false,
+    "changelog":  [
+                      "* Perbaikan jalur simpan dan tampil foto produk WPF agar tidak bergantung folder Laravel lokal.\n* Penambahan auto-create folder lokal katalog foto Setiaware.\n* Perbaikan sinkronisasi foto produk via FTP menggunakan RootPath dan CatalogFolder.\n* Perbaikan handling path foto produk agar tetap memakai format relatif storage/katalog-foto/{nama-file}.\n* Perbaikan error handling FTP agar sync produk tetap berjalan meskipun satu foto gagal upload/download.\r\n"
+                  ]
 }
