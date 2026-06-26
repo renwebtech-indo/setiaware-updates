@@ -1,13 +1,12 @@
 {
-    "appName":  "Setiaware",
-    "latestVersion":  "1.0.12",
-    "releaseDate":  "2026-06-25",
-    "packageFile":  "Setiaware_Update_1.0.12.zip",
-    "packageUrl":  "https://renwebtech.rndweb.my.id/public/renwebtech/wpf-updater/Setiaware_Update_1.0.12.zip",
-    "requiresRestart":  true,
-    "overwriteConfig":  false,
-    "changelog":  [
-                      "C:\\Users\\User\\source\\repos\\setiaware\\dist\\publish\\Setiaware.Updater\\Setiaware.Updater.pdb",
-                      "C:\\Users\\User\\source\\repos\\setiaware\\dist\\publish\\Setiaware.Updater\\Setiaware.Updater.exe"
-                  ]
+  "appName": "Setiaware",
+  "latestVersion": "1.0.12",
+  "releaseDate": "2026-06-25",
+  "packageFile": "Setiaware_Update_1.0.12.zip",
+  "packageUrl": "https://github.com/renwebtechindonesia/setiaware-updates/releases/download/v1.0.12/Setiaware_Update_1.0.12.zip",
+  "requiresRestart": true,
+  "overwriteConfig": false,
+  "changelog": [
+    "Release 1.0.12"
+  ]
 }
