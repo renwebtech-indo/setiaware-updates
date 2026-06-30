@@ -7,6 +7,6 @@
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "* Fix race condition status transaksi SalesOrder/GRN agar hosting/gudang yang lebih update tidak ketimpa local stale data.\n* Fix nama driver pada PDF terpilih untuk status dikirim.\n* Update format cetak PDF terpilih menjadi report table.\n* Tampilkan area pelanggan/toko di SalesOrderFormView.\n* Pagination cetak SalesOrderView maksimal 20 item per halaman.\n* Tambah tombol rollback ke versi sebelumnya."
+                      "* Fix race condition status transaksi SalesOrder/GRN agar hosting/gudang yang lebih update tidak ketimpa local stale data.\n* Fix nama driver pada PDF terpilih untuk status dikirim.\n* Update format cetak PDF terpilih menjadi report table.\n* Tampilkan area pelanggan/toko di SalesOrderFormView.\n* Pagination cetak SalesOrderView maksimal 20 item per halaman.\n* Tambah tombol rollback ke versi sebelumnya.\n*- Fix SalesOrder/GRN status normalization so known statuses no longer resolve as unknown rank.\n- Fix SalesOrder status sync decision for Dikirim vs Completed and Dikirim vs Ready.\n- Keep final state-machine resolver for SalesOrder status sync."
                   ]
 }
