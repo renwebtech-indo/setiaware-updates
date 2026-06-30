@@ -1,12 +1,12 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.14",
-    "releaseDate":  "2026-06-27",
-    "packageFile":  "Setiaware_Update_1.0.14.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.14/Setiaware_Update_1.0.14.zip",
+    "latestVersion":  "1.0.15",
+    "releaseDate":  "2026-06-30",
+    "packageFile":  "Setiaware_Update_1.0.15.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.15/Setiaware_Update_1.0.15.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "Fix v1.0.14:\n- Fix auto-update launcher Pasang Sekarang.\n- Fix auto-sync Produk agar kode_produk yang sama tapi id berbeda tidak menyebabkan duplicate key.\n- Pull Produk memakai business key normalized kode_produk sebelum insert.\n- Auth seed table Role, Permission, RoleHasPermission, dan ModelHasRole tetap dilewati agar tidak menghentikan sync.\n- Tambah close-to-tray agar auto-sync tetap jalan saat window ditutup.\n- Auto-sync berjalan background tanpa memblok UI.\n- Auto-sync 1 menit hanya menjalankan DB sync ringan.\n- Sync katalog foto/FTP tidak lagi ikut auto-sync tiap menit.\n- Progress sync dibuat non-blocking agar aplikasi tetap bisa dipakai.\n- Pisahkan auto-sync cepat dan product sync.\n- Auto-sync 1 menit fokus transaksi dan master ringan.\n- Produk full sync berjalan terpisah tiap 10 menit.\n- Transaksi tetap aman dengan on-demand produk by kode_produk saat detail membutuhkan produk.\n- Tambah atomic sync untuk transaksi sales pipeline.\n- Surat Jalan, Invoice Sales Order, Journal Entry, dan Sales Return disync per dokumen agar tidak partial save.\n- Sync transaksi memakai business key/nomor dokumen, bukan id saja.\n- Cegah duplicate posting dan duplicate detail saat sync ulang.\n- Perbaikan posisi ToastWindow agar konsisten di pojok kanan bawah.\n- Perbaikan total posisi toast/notification realtime.\n- Semua toast sekarang muncul konsisten di pojok kanan bawah dengan stack rapi dan non-blocking."
+                      "* Fix race condition status transaksi SalesOrder/GRN agar hosting/gudang yang lebih update tidak ketimpa local stale data.\n* Fix nama driver pada PDF terpilih untuk status dikirim.\n* Update format cetak PDF terpilih menjadi report table.\n* Tampilkan area pelanggan/toko di SalesOrderFormView.\n* Pagination cetak SalesOrderView maksimal 20 item per halaman.\n* Tambah tombol rollback ke versi sebelumnya."
                   ]
 }
