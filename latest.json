@@ -3,7 +3,7 @@
     "latestVersion":  "1.0.16.1",
     "releaseDate":  "2026-07-15",
     "packageFile":  "Setiaware_Update_1.0.16.1.zip",
-    "packageUrl":  "https://renwebtech.rndweb.my.id/public/renwebtech/wpf-updater/Setiaware_Update_1.0.16.1.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.16.1/Setiaware_Update_1.0.16.1.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog": [
