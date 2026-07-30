@@ -1,9 +1,9 @@
 {
     "appName":  "Setiaware",
     "latestVersion":  "1.0.17",
-    "releaseDate":  "2026-07-28",
+    "releaseDate":  "2026-07-30",
     "packageFile":  "Setiaware_Update_1.0.17.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.17/Setiaware_Update_1.0.17.zip",
+    "packageUrl":  "https://renwebtech.rndweb.my.id/public/renwebtech/wpf-updater/Setiaware_Update_1.0.17.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
@@ -12,6 +12,10 @@
                       "Segregasi company diperkuat dengan comp_id pada journal_entries dan expenses agar laporan pajak dan keuangan lebih konsisten.",
                       "Payroll WPF membaca attendance_payroll_exceptions approved dari PWA untuk late_waiver dan paid_absence, serta aturan regular checkout penuh disamakan dengan payroll PWA.",
                       "Hosting sync dan schema foundation v16.3 diperkeras untuk kompatibilitas attendance payroll exception, FIFO, dan company scope.",
-                      "Perapihan UI operasional mencakup layout Absensi, Company Settings, dan area laporan atau approval terkait payroll absensi dan company scope."
+                      "Perapihan UI operasional mencakup layout Absensi, Company Settings, dan area laporan atau approval terkait payroll absensi dan company scope.",
+                      "Pengaturan validasi transaksi GRN, Invoice, dan Pembayaran Pembelian dapat memakai mode manual atau otomatis sesuai setting.",
+                      "Payroll mendukung tambahan gaji sekali per periode, dapat diedit atau dihapus selama payroll masih draft, dan tampil pada Preview.",
+                      "Laporan Absensi menggunakan status Bahasa Indonesia, kolom catatan, durasi kerja, serta label lokasi yang lebih jelas.",
+                      "Preview Payroll dirapikan: jam lembur tampil dalam total jam dan kolom nominal rata kanan."
                   ]
 }
