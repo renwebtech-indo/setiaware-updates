@@ -18,7 +18,7 @@
                       "Rekap Penjualan invoice mendapat aksi Terima Pembayaran langsung dari daftar.",
                       "Penerimaan Barang tidak lagi menahan input bila Qty Gudang berbeda dengan Qty Nota; admin dapat override sesuai kebutuhan.",
                       "Absensi mendapat fitur Lepas Binding device dari desktop serta tombol Tarik Data Android dan Upload Ke Android untuk sinkronisasi manual.",
-                      "Sync Upload Ke Android untuk absensi manual kini kembali membaca catatan Manual WPF lama maupun format baru, sehingga edit absensi manual yang lebih baru benar-benar ikut ter-push ke hosting dan Android.",
+                      "Sync Upload Ke Android untuk absensi manual kini membaca catatan Manual WPF lama maupun format baru, dan jika UpdatedAt lokal lebih baru maka data hosting/Android boleh dioverride walaupun absensi mobile sebelumnya sudah lengkap.",
                       "Absensi Manual desktop sekarang boleh mengoreksi data yang sudah memiliki check-in dan checkout penuh, dan UpdatedAt lokal selalu diperbarui agar perubahan terbaru dari WPF menang saat sinkronisasi.",
                       "Halaman Login mendapat tombol Cek Update dan Roll Back untuk membantu proses update desktop."
                   ]
