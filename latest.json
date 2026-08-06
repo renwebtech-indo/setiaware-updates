@@ -1,21 +1,22 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.17",
-    "releaseDate":  "2026-07-30",
-    "packageFile":  "Setiaware_Update_1.0.17.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.17/Setiaware_Update_1.0.17.zip",
+    "latestVersion":  "1.0.17.1",
+    "releaseDate":  "2026-08-06",
+    "packageFile":  "Setiaware_Update_1.0.17.1.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.17.1/Setiaware_Update_1.0.17.1.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "Release 1.0.17",
-                      "FIFO valuasi persediaan dan HPP aktif lewat inventory_cost_layers dan inventory_cost_allocations pada validasi GRN, invoice, dan revisi invoice.",
-                      "Segregasi company diperkuat dengan comp_id pada journal_entries dan expenses agar laporan pajak dan keuangan lebih konsisten.",
-                      "Payroll WPF membaca attendance_payroll_exceptions approved dari PWA untuk late_waiver dan paid_absence, serta aturan regular checkout penuh disamakan dengan payroll PWA.",
-                      "Hosting sync dan schema foundation v16.3 diperkeras untuk kompatibilitas attendance payroll exception, FIFO, dan company scope.",
-                      "Perapihan UI operasional mencakup layout Absensi, Company Settings, dan area laporan atau approval terkait payroll absensi dan company scope.",
-                      "Pengaturan validasi transaksi GRN, Invoice, dan Pembayaran Pembelian dapat memakai mode manual atau otomatis sesuai setting.",
-                      "Payroll mendukung tambahan gaji sekali per periode, dapat diedit atau dihapus selama payroll masih draft, dan tampil pada Preview.",
-                      "Laporan Absensi menggunakan status Bahasa Indonesia, kolom catatan, durasi kerja, serta label lokasi yang lebih jelas.",
-                      "Preview Payroll dirapikan: jam lembur tampil dalam total jam dan kolom nominal rata kanan."
+                      "Release 1.0.17.1",
+                      "Stabilitas halaman Invoice dan Biaya diperkuat untuk mengurangi error Entity Framework yang kadang muncul di PC tertentu saat load data.",
+                      "Penerimaan Barang dari Buat GRN kembali mengisi Qty Gudang otomatis dari Qty Nota atau Qty Diterima agar validasi terima stok tidak gagal karena qty_gudang kosong.",
+                      "Halaman GRN kini menampilkan Nomor Nota supplier sebagai identitas utama dokumen penerimaan.",
+                      "Laporan pembelian dan penerimaan konsisten memakai Tanggal Nota supplier sebagai dasar hitung, filter, dan urutan data.",
+                      "Penamaan laporan penjualan dirapikan: Rekap Penjualan menjadi Rekap SO(PO), sedangkan Rekap Invoice menjadi Rekap Penjualan.",
+                      "Rekap Penjualan invoice mendapat aksi Terima Pembayaran langsung dari daftar.",
+                      "Penerimaan Barang tidak lagi menahan input bila Qty Gudang berbeda dengan Qty Nota; admin dapat override sesuai kebutuhan.",
+                      "Absensi mendapat fitur Lepas Binding device dari desktop serta tombol Tarik Data Android dan Upload Ke Android untuk sinkronisasi manual.",
+                      "Absensi Manual desktop sekarang boleh mengoreksi data yang sudah memiliki check-in dan checkout penuh, dan UpdatedAt lokal selalu diperbarui agar perubahan terbaru dari WPF menang saat sinkronisasi.",
+                      "Halaman Login mendapat tombol Cek Update dan Roll Back untuk membantu proses update desktop."
                   ]
 }
