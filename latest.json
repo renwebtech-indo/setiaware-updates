@@ -1,14 +1,16 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.17.1",
+    "latestVersion":  "1.0.17.2",
     "releaseDate":  "2026-08-06",
-    "packageFile":  "Setiaware_Update_1.0.17.1.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.17.1/Setiaware_Update_1.0.17.1.zip",
+    "packageFile":  "Setiaware_Update_1.0.17.2.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.17.2/Setiaware_Update_1.0.17.2.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "Release 1.0.17.1",
-                      "Stabilitas halaman Invoice dan Biaya diperkuat untuk mengurangi error Entity Framework yang kadang muncul di PC tertentu saat load data.",
+                      "Release 1.0.17.2",
+                      "Sistem updater tetap membaca jalur rilis 17.2 dengan benar dan paket update kembali diselaraskan ke keluarga versi 17.",
+                      "Stabilitas halaman Invoice diperkuat lagi untuk mengurangi error Entity Framework yang kadang muncul saat buka form Buat Invoice maupun Edit Invoice, khususnya pada perubahan mode PKP/NON PKP yang sebelumnya masih bisa menembak query paralel.",
+                      "Stabilitas halaman Biaya diperkuat untuk mengurangi error Entity Framework serupa yang kadang muncul di PC tertentu saat load data dan buka detail.",
                       "Penerimaan Barang dari Buat GRN kembali mengisi Qty Gudang otomatis dari Qty Nota atau Qty Diterima agar validasi terima stok tidak gagal karena qty_gudang kosong.",
                       "Halaman GRN kini menampilkan Nomor Nota supplier sebagai identitas utama dokumen penerimaan.",
                       "Laporan pembelian dan penerimaan konsisten memakai Tanggal Nota supplier sebagai dasar hitung, filter, dan urutan data.",
@@ -16,6 +18,7 @@
                       "Rekap Penjualan invoice mendapat aksi Terima Pembayaran langsung dari daftar.",
                       "Penerimaan Barang tidak lagi menahan input bila Qty Gudang berbeda dengan Qty Nota; admin dapat override sesuai kebutuhan.",
                       "Absensi mendapat fitur Lepas Binding device dari desktop serta tombol Tarik Data Android dan Upload Ke Android untuk sinkronisasi manual.",
+                      "Sync Upload Ke Android untuk absensi manual kini kembali membaca catatan Manual WPF lama maupun format baru, sehingga edit absensi manual yang lebih baru benar-benar ikut ter-push ke hosting dan Android.",
                       "Absensi Manual desktop sekarang boleh mengoreksi data yang sudah memiliki check-in dan checkout penuh, dan UpdatedAt lokal selalu diperbarui agar perubahan terbaru dari WPF menang saat sinkronisasi.",
                       "Halaman Login mendapat tombol Cek Update dan Roll Back untuk membantu proses update desktop."
                   ]
