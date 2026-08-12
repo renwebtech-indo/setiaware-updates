@@ -1,15 +1,21 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.18",
-    "releaseDate":  "2026-08-09",
-    "packageFile":  "Setiaware_Update_1.0.18.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.18/Setiaware_Update_1.0.18.zip",
+    "latestVersion":  "1.0.18.1",
+    "releaseDate":  "2026-08-12",
+    "packageFile":  "Setiaware_Update_1.0.18.1.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.18.1/Setiaware_Update_1.0.18.1.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "Local-first durable event queue untuk transaksi utama dan retry targeted per business key.",
-                      "GRN dan Invoice bundle mempertahankan detail, stock movement, dan jurnal terkait.",
-                      "Penerimaan pembayaran invoice, BG cair/ditolak, serta pemulihan jurnal pembayaran ikut event invoice.",
-                      "Absensi manual dan approval checkout disinkronkan targeted dua arah dengan attendance key yang sama."
+                      "2026-08-12  Release v1.0.18.1:",
+                      "- Perhitungan Pembayaran Supplier dirapikan: input nominal tetap nyaman diketik, tampilan memakai format Rupiah, dan biaya ongkos kirim dihitung sebagai nilai numerik yang benar.",
+                      "- Pembayaran Supplier mendukung Diskon Pembelian di Luar Nota yang mengurangi nilai bayar dan ikut tercatat melalui mapping jurnal.",
+                      "- Rekap Pembelian menampilkan Nomor Nota, Nomor Penerimaan, Nomor SJ, Nomor PO, ekspedisi, No. SJ Ekspedisi, pembuat, serta aksi pembayaran langsung melalui dialog.",
+                      "- Laporan Hutang dan Piutang mendapat filter status; hasil Excel dan PDF mengikuti filter aktif.",
+                      "- Jurnal Penyesuaian dapat diedit tanpa menghapus histori; pembatalan tetap menggunakan reversal.",
+                      "- Penerimaan Barang/GRN mendukung jurnal Barang Dalam Perjalanan saat Tanggal Nota berbeda dengan Tanggal Penerimaan, tanpa mengubah stok, FIFO, qty, maupun tanggal penerimaan barang.",
+                      "- Live Monitoring Sync tersedia untuk Superadmin pada PC Server Node, memisahkan event Lokal dan Hosting, menampilkan status/error/durasi, serta menyediakan retry sync per event.",
+                      "- Sync Produk \u0026 Foto sekarang mengunduh foto katalog dari hosting yang belum ada di penyimpanan lokal, tanpa menarik atau menimpa master data produk.",
+                      "- Updater mendukung format versi empat digit seperti 1.0.18.1 untuk perbandingan, folder extract, manifest, dan package update."
                   ]
 }
