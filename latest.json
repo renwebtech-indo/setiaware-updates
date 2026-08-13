@@ -1,7 +1,7 @@
 {
     "appName":  "Setiaware",
     "latestVersion":  "1.0.18.1",
-    "releaseDate":  "2026-08-12",
+    "releaseDate":  "2026-08-13",
     "packageFile":  "Setiaware_Update_1.0.18.1.zip",
     "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.18.1/Setiaware_Update_1.0.18.1.zip",
     "requiresRestart":  true,
@@ -15,7 +15,13 @@
                       "- Jurnal Penyesuaian dapat diedit tanpa menghapus histori; pembatalan tetap menggunakan reversal.",
                       "- Penerimaan Barang/GRN mendukung jurnal Barang Dalam Perjalanan saat Tanggal Nota berbeda dengan Tanggal Penerimaan, tanpa mengubah stok, FIFO, qty, maupun tanggal penerimaan barang.",
                       "- Live Monitoring Sync tersedia untuk Superadmin pada PC Server Node, memisahkan event Lokal dan Hosting, menampilkan status/error/durasi, serta menyediakan retry sync per event.",
-                      "- Sync Produk \u0026 Foto sekarang mengunduh foto katalog dari hosting yang belum ada di penyimpanan lokal, tanpa menarik atau menimpa master data produk.",
-                      "- Updater mendukung format versi empat digit seperti 1.0.18.1 untuk perbandingan, folder extract, manifest, dan package update."
+                      "- Sync Produk & Foto sekarang mengunduh foto katalog dari hosting yang belum ada di penyimpanan lokal, tanpa menarik atau menimpa master data produk.",
+                      "- Updater mendukung format versi empat digit seperti 1.0.18.1 untuk perbandingan, folder extract, manifest, dan package update.",
+                      "2026-08-13 Release v1.0.18.1:",
+                      "- Sales Order ulangan memakai nomor parent yang benar: parent-1, parent-2, dan seterusnya tanpa suffix berantai.",
+                      "- Form Sales Order dipisahkan untuk baru, edit normal, dan edit ulangan; kolom item dirapikan untuk operasi harian.",
+                      "- Ready Sales Order menampilkan WMS, pending, dan sisa stok secara read-only; Qty2 kosong tidak ikut masuk invoice, dengan penanda stok aman atau kurang.",
+                      "- Cetak Invoice menyesuaikan ukuran font kolom Ket./DUS agar seluruh isi tetap satu baris tanpa memotong tinggi row.",
+                      "- Pembayaran supplier mendukung potongan ongkir; Laporan Pembelian menampilkan history pembayaran GRN dan status Lunas dengan aksi pembayaran yang sesuai."
                   ]
 }
