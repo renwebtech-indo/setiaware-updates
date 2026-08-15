@@ -1,16 +1,12 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.18.3",
-    "releaseDate":  "2026-08-14",
-    "packageFile":  "Setiaware_Update_1.0.18.3.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.18.3/Setiaware_Update_1.0.18.3.zip",
+    "latestVersion":  "1.0.18.4",
+    "releaseDate":  "2026-08-15",
+    "packageFile":  "Setiaware_Update_1.0.18.4.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.18.4/Setiaware_Update_1.0.18.4.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "PDF Terpilih Rekap Penjualan mengikuti urutan Ket/Dus dan nominal subtotal detail per lembar invoice.",
-                      "Edit invoice PENDING kini menyimpan perubahan qty item.",
-                      "Proses Ready Sales Order mendukung tambah dan ganti barang tanpa input harga/diskon.",
-                      "Invoice Sales Order dan Kartu Stok menampilkan area customer.",
-                      "Cetak/export PDF Sales Order mempertahankan urutan Nama Produk A-Z."
+                      "Proses Ready: Simpan Draft, Qty Kirim, perubahan barang, harga dan pengiriman, pembuatan invoice pending, guard nomor SO partial, serta pencarian barang berdasarkan kode atau nama."
                   ]
 }
