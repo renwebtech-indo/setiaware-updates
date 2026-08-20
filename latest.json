@@ -7,6 +7,6 @@
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.18.7/Setiaware_Update_1.0.18.7.zip"
+                      "Perbaikan invoice SO ulangan: validasi dan total hanya menghitung qty yang masuk invoice. Perbaikan qty SO ulangan serta sinkronisasi penghapusan detail GRN. PDF SO ulangan kini menampilkan qty induk dan sisa kirim hanya untuk barang yang memiliki dus induk; dus ditampilkan pada catatan. Pembaruan ikon aplikasi."
                   ]
 }
