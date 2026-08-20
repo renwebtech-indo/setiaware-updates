@@ -1,12 +1,13 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.18.7",
+    "latestVersion":  "1.0.18.8",
     "releaseDate":  "2026-08-20",
-    "packageFile":  "Setiaware_Update_1.0.18.7.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.18.7/Setiaware_Update_1.0.18.7.zip",
+    "packageFile":  "Setiaware_Update_1.0.18.8.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.18.8/Setiaware_Update_1.0.18.8.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "Perbaikan invoice SO ulangan: validasi dan total hanya menghitung qty yang masuk invoice. Perbaikan qty SO ulangan serta sinkronisasi penghapusan detail GRN. PDF SO ulangan kini menampilkan qty induk dan sisa kirim hanya untuk barang yang memiliki dus induk; dus ditampilkan pada catatan. Pembaruan ikon aplikasi."
+                      "Perhitungan invoice mengikuti qty kirim dan diskon item.",
+                      "Analisis HPP mengikuti detail invoice yang benar-benar dikirim."
                   ]
 }
