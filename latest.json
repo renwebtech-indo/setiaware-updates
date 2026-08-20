@@ -1,21 +1,12 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.18.5",
-    "releaseDate":  "2026-08-19",
-    "packageFile":  "Setiaware_Update_1.0.18.5.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.18.5/Setiaware_Update_1.0.18.5.zip",
+    "latestVersion":  "1.0.18.6",
+    "releaseDate":  "2026-08-20",
+    "packageFile":  "Setiaware_Update_1.0.18.6.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.18.6/Setiaware_Update_1.0.18.6.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "InvoiceSalesOrder cetak, PDF, dan Excel sekarang memakai satuan.singkatan dari master produk",
-                      "Rekap Penjualan PDF Terpilih diselaraskan dengan total per nota pada Analisis HPP",
-                      "Validasi GRN memperbarui harga beli supplier terkait dan menghitung harga rekomendasi 40%",
-                      "Validasi invoice memperbarui harga jual produk bila berbeda",
-                      "Master produk mendukung perhitungan otomatis dan override manual harga 40%",
-                      "Riwayat perubahan master produk dan riwayat harga menampilkan pengubah, waktu, dan sumber",
-                      "Revisi input biaya memperbarui detail jurnal secara langsung tanpa reversal",
-                      "Tanggal jurnal laporan keuangan mengikuti tanggal transaksi",
-                      "Perbaikan pemisahan laporan retur supplier berdasarkan supplier barang",
-                      "Perbaikan stabilitas dialog revisi dan input biaya"
+                      "Perbaikan invoice SO ulangan: validasi, total daftar invoice, dan qty detail hanya menghitung qty yang benar-benar masuk invoice. Perbaikan tampilan qty SO ulangan agar qty order induk tidak terduplikasi. Sinkronisasi GRN kini merekonsiliasi detail yang dihapus antar source berdasarkan business key produk."
                   ]
 }
