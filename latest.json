@@ -1,14 +1,15 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.19",
-    "releaseDate":  "2026-08-22",
-    "packageFile":  "Setiaware_Update_1.0.19.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.19/Setiaware_Update_1.0.19.zip",
+    "latestVersion":  "1.0.19.1",
+    "releaseDate":  "2026-08-24",
+    "packageFile":  "Setiaware_Update_1.0.19.1.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.19.1/Setiaware_Update_1.0.19.1.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "Versi 1.0.19.0: durable outbox Stock Opname dengan background sync realtime",
-                      "Patch deterministic invoice/GRN reconciliation dan retry safety",
-                      "Export DJP mengikuti filter detail invoice: QtyKirim lebih dari 0 dan Dus bukan tanda strip"
+                      "Harga beli terakhir produk dan Harga 40 kini diperbarui dari harga efektif GRN, termasuk pembelian supplier tambahan.",
+                      "Sync Stock Opname kini retry bila header atau produk hosting belum tersedia; movement, jurnal, dan status tidak lagi dapat tersinkron parsial tanpa error.",
+                      "Pull hosting ke lokal berjalan setiap 5 detik dengan single-flight dan coalescing existing, tanpa menunggu hosting pada UI.",
+                      "Simpan, edit, dan soft-delete Produk kini memakai sync event durable berbasis Kode Produk setelah commit lokal."
                   ]
 }
