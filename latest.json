@@ -1,15 +1,12 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.19.1",
-    "releaseDate":  "2026-08-24",
-    "packageFile":  "Setiaware_Update_1.0.19.1.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.19.1/Setiaware_Update_1.0.19.1.zip",
+    "latestVersion":  "1.0.19.2",
+    "releaseDate":  "2026-08-26",
+    "packageFile":  "Setiaware_Update_1.0.19.2.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.19.2/Setiaware_Update_1.0.19.2.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "Harga beli terakhir produk dan Harga 40 kini diperbarui dari harga efektif GRN, termasuk pembelian supplier tambahan.",
-                      "Sync Stock Opname kini retry bila header atau produk hosting belum tersedia; movement, jurnal, dan status tidak lagi dapat tersinkron parsial tanpa error.",
-                      "Pull hosting ke lokal berjalan setiap 5 detik dengan single-flight dan coalescing existing, tanpa menunggu hosting pada UI.",
-                      "Simpan, edit, dan soft-delete Produk kini memakai sync event durable berbasis Kode Produk setelah commit lokal."
+                      "Perbaikan sync Produk: worker kini mengabaikan master produk yang sudah soft-delete saat mencari berdasarkan Kode Produk, sehingga duplicate legacy soft-delete tidak lagi memicu retry Sequence contains more than one element."
                   ]
 }
