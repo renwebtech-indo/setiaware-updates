@@ -1,12 +1,19 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.19.2",
-    "releaseDate":  "2026-08-26",
-    "packageFile":  "Setiaware_Update_1.0.19.2.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.19.2/Setiaware_Update_1.0.19.2.zip",
+    "latestVersion":  "1.0.19.3",
+    "releaseDate":  "2026-08-27",
+    "packageFile":  "Setiaware_Update_1.0.19.3.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.19.3/Setiaware_Update_1.0.19.3.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "Perbaikan sync Produk: worker kini mengabaikan master produk yang sudah soft-delete saat mencari berdasarkan Kode Produk, sehingga duplicate legacy soft-delete tidak lagi memicu retry Sequence contains more than one element."
+                      "Buku Besar: Referensi transaksi kini menampilkan sumber yang lebih lengkap dan dapat dibuka untuk melihat detail dokumen.",
+                      "Master Produk: tersedia daftar Produk Terhapus dan aksi Pulihkan Produk tanpa mengubah stok maupun riwayat.",
+                      "Customer: penambahan master Wilayah/Area dan pemakaian Wilayah pada data customer.",
+                      "Laporan Omset Sales: rekap kini dikelompokkan per Wilayah customer, termasuk invoice, omset, HPP, laba kotor, dan margin.",
+                      "FIFO: halaman Status FIFO, panduan, preview/migrasi saldo pembukaan, daftar masalah cost, dan jejak migrasi ditambahkan.",
+                      "Absensi dan Payroll: pulang cepat dihitung dari jam kerja aktual; Pengampunan Absensi yang disetujui dihitung satu hari penuh.",
+                      "Integrasi PWA-WPF: pengajuan attendance_waiver disinkronkan ke WPF sebagai approval tunggal.",
+                      "Kalender absensi: koreksi tanggal Maulid Nabi dan tampilan hari libur pada rekap absensi."
                   ]
 }
