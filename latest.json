@@ -1,17 +1,21 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.19.4",
-    "releaseDate":  "2026-08-28",
-    "packageFile":  "Setiaware_Update_1.0.19.4.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.19.4/Setiaware_Update_1.0.19.4.zip",
+    "latestVersion":  "1.0.19.5",
+    "releaseDate":  "2026-08-29",
+    "packageFile":  "Setiaware_Update_1.0.19.5.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.19.5/Setiaware_Update_1.0.19.5.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "Laporan Tahunan dan Rekap Pembelian hanya menghitung GRN berstatus diterima atau done.",
-                      "GRN draft, pending, start, pause, partial, dan cancel dikeluarkan dari laporan pembelian.",
-                      "Standardisasi perhitungan HPP laporan berdasarkan jurnal tervalidasi/posting dan penyesuaian HPP.",
-                      "Perbaikan analisis HPP invoice, rekap penjualan, laporan piutang, omset, dan laporan tahunan.",
-                      "Penambahan filter company pada rekap pembelian dan laporan terkait.",
-                      "Penyempurnaan FIFO, payroll, absensi, master customer wilayah, dan detail sumber buku besar."
+                      "Perhitungan HPP pada rekap penjualan, invoice, laporan piutang, omset, dan laporan tahunan diselaraskan ke jurnal posted serta penyesuaian HPP.",
+                      "Invoice dari SO partial kini hanya menampilkan, mencetak, mengekspor, dan memvalidasi detail yang benar-benar dialokasikan ke invoice; stok dan jurnal tidak berubah.",
+                      "Payroll mendukung CV per karyawan, penyesuaian absensi disetujui, serta tambahan gaji sekali periode dengan tanggal dan COA pembayaran per baris.",
+                      "Libur nasional dan libur manual berbayar kini dihitung sebagai hari dibayar payroll; cuti bersama tidak dihitung sebagai hari kerja maupun hari gaji.",
+                      "Laporan Absensi memisahkan Hadir aktual, Libur Dibayar, dan Hari Dibayar Payroll agar audit absensi dan payroll tetap jelas.",
+                      "Master Hari Libur mendukung tipe nasional, manual dibayar, dan cuti bersama untuk input owner/PWA.",
+                      "Status aktif/nonaktif produk diselaraskan dua arah antara WPF dan PWA berdasarkan kode produk.",
+                      "Master Customer mendukung Kota dan Area/Wilayah, termasuk data master wilayah.",
+                      "Monitoring FIFO, migrasi layer, riwayat, dan panduan operasional disempurnakan untuk validasi persediaan.",
+                      "Master Data Produk mendukung export Excel/PDF pilihan dengan foto katalog dan tata letak cetak yang dirapikan."
                   ]
 }
