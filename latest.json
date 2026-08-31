@@ -1,21 +1,12 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.19.5",
-    "releaseDate":  "2026-08-29",
-    "packageFile":  "Setiaware_Update_1.0.19.5.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.19.5/Setiaware_Update_1.0.19.5.zip",
+    "latestVersion":  "1.0.19.6",
+    "releaseDate":  "2026-08-31",
+    "packageFile":  "Setiaware_Update_1.0.19.6.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.19.6/Setiaware_Update_1.0.19.6.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "Perhitungan HPP pada rekap penjualan, invoice, laporan piutang, omset, dan laporan tahunan diselaraskan ke jurnal posted serta penyesuaian HPP.",
-                      "Invoice dari SO partial kini hanya menampilkan, mencetak, mengekspor, dan memvalidasi detail yang benar-benar dialokasikan ke invoice; stok dan jurnal tidak berubah.",
-                      "Payroll mendukung CV per karyawan, penyesuaian absensi disetujui, serta tambahan gaji sekali periode dengan tanggal dan COA pembayaran per baris.",
-                      "Libur nasional dan libur manual berbayar kini dihitung sebagai hari dibayar payroll; cuti bersama tidak dihitung sebagai hari kerja maupun hari gaji.",
-                      "Laporan Absensi memisahkan Hadir aktual, Libur Dibayar, dan Hari Dibayar Payroll agar audit absensi dan payroll tetap jelas.",
-                      "Master Hari Libur mendukung tipe nasional, manual dibayar, dan cuti bersama untuk input owner/PWA.",
-                      "Status aktif/nonaktif produk diselaraskan dua arah antara WPF dan PWA berdasarkan kode produk.",
-                      "Master Customer mendukung Kota dan Area/Wilayah, termasuk data master wilayah.",
-                      "Monitoring FIFO, migrasi layer, riwayat, dan panduan operasional disempurnakan untuk validasi persediaan.",
-                      "Master Data Produk mendukung export Excel/PDF pilihan dengan foto katalog dan tata letak cetak yang dirapikan."
+                      "Perbaikan payroll, pengisian otomatis Satuan Qty2 pada PDF SalesOrder, produk nonaktif dengan stok tetap dapat ditambahkan ke SalesOrder, serta reaktivasi produk dan visibility katalog saat validasi GRN."
                   ]
 }
