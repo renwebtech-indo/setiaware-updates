@@ -1,0 +1,14 @@
+{
+  "appName": "Setiaware",
+  "latestVersion": "1.0.0.1",
+  "latestVersionCode": 10001,
+  "releaseDate": "2026-09-01",
+  "apkFile": "Setiaware-v1.0.0.1.apk",
+  "apkUrl": "https://github.com/renwebtech-indo/setiaware-update-apk/releases/download/v1.0.1/Setiaware-v1.0.0.1.apk",
+  "sha256": "fda800cbedd2162ee1337881d00595da438d4da60055e034839cab64164a4d67",
+  "forceUpdate": false,
+  "minSupportedVersionCode": 10000,
+  "changelog": [
+    "Penyempurnaan UI, Customer, Detail Customer, dan icon notifikasi."
+  ]
+}
