@@ -1,12 +1,18 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.19.6",
-    "releaseDate":  "2026-08-31",
-    "packageFile":  "Setiaware_Update_1.0.19.6.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.19.6/Setiaware_Update_1.0.19.6.zip",
+    "latestVersion":  "1.0.19.7",
+    "releaseDate":  "2026-09-01",
+    "packageFile":  "Setiaware_Update_1.0.19.7.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.19.7/Setiaware_Update_1.0.19.7.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "Perbaikan payroll, pengisian otomatis Satuan Qty2 pada PDF SalesOrder, produk nonaktif dengan stok tetap dapat ditambahkan ke SalesOrder, serta reaktivasi produk dan visibility katalog saat validasi GRN."
+                      "Kasbon karyawan: halaman kelola, tambah/edit/hapus, nominal cicilan per payroll, serta status open/partial/paid.",
+                      "Payroll: perbaikan tanggal jurnal pembayaran, sequence jurnal/periode duplikat, dan COA pembayaran tambahan.",
+                      "Slip Gaji PDF: layout premium, pagination aman, detail lembur/potongan, logo/watermark, serta penyesuaian absensi disetujui.",
+                      "Input Biaya: COA transaksi aktif kelompok HPP 5xxx tersedia saat edit dan approval.",
+                      "Invoice Langsung: qty kirim otomatis mengikuti qty invoice agar validasi FIFO tidak nol.",
+                      "Edit Invoice: total item langsung refresh untuk qty kirim, harga, dan diskon.",
+                      "Revisi Invoice VALIDATED: Dus/koli yang diedit ikut tersimpan dan terbaca pada cetak/PDF."
                   ]
 }
