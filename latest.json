@@ -1,12 +1,14 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.19.8",
-    "releaseDate":  "2026-09-02",
-    "packageFile":  "Setiaware_Update_1.0.19.8.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.19.8/Setiaware_Update_1.0.19.8.zip",
+    "latestVersion":  "1.0.19.9",
+    "releaseDate":  "2026-09-03",
+    "packageFile":  "Setiaware_Update_1.0.19.9.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.19.9/Setiaware_Update_1.0.19.9.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "FIFO dan invoice: revisi harga tanpa perubahan qty kini tidak menyentuh stok atau allocation FIFO, sementara HPP historis dari stock movement tetap dipertahankan. Revisi qty invoice sebelum cutover FIFO memakai jalur legacy agar tidak gagal karena allocation historis memang belum ada. Status FIFO kini menampilkan allocation terbaru beserta invoice, produk, layer/sumber, qty, harga modal, total HPP, dan waktu; halaman dapat discroll hingga tabel layer produk. Validasi invoice menampilkan Preview FIFO berisi sumber layer dan harga modal sebelum stok dipotong, dan invoice menyediakan Detail FIFO untuk audit allocation per item. Ditambah PNG tutorial Status FIFO untuk cara membaca allocation, scroll halaman, dan Preview FIFO pada validasi invoice."
+                      "Ringkasan Patch 1-7: LocalOnly, audit harga, log sync, dan reconnect aman selesai/terverifikasi.",
+                      "Perbaikan Export DJP: qty dan subtotal memakai jumlah barang yang benar-benar dikirim.",
+                      "Audit desktop: sumber mencatat label DESKTOP dan nama komputer sesuai mapping."
                   ]
 }
