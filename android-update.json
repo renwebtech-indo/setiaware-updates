@@ -1,18 +1,23 @@
 {
   "appName": "Setiaware",
-  "latestVersion": "1.0.0.2",
-  "latestVersionCode": 10002,
-  "releaseDate": "2026-09-03",
-  "apkFile": "Setiaware-v1.0.0.2.apk",
-  "apkUrl": "https://github.com/renwebtech-indo/setiaware-update-apk/releases/download/v1.0.0.2/Setiaware-v1.0.0.2.apk",
-  "sha256": "e65f97ddb71246241bcb3c167bd9249daee745e633dc255c917e9396bc32d65d",
+  "latestVersion": "1.0.0.3",
+  "latestVersionCode": 10003,
+  "releaseDate": "2026-09-12",
+  "apkFile": "Setiaware-v1.0.0.3.apk",
+  "apkUrl": "https://github.com/renwebtech-indo/setiaware-update-apk/releases/download/v1.0.0.3/Setiaware-v1.0.0.3.apk",
+  "sha256": "02ab9677e7e598d1709a981067b50385f7455c4620a6044c6dc521cffbaa1b37",
   "forceUpdate": false,
   "minSupportedVersionCode": 10000,
   "changelog": [
-    "Katalog offline-first dengan cache data dan foto.",
-    "Penyempurnaan tampilan HPP berdasarkan layer FIFO.",
-    "Penerimaan Barang Native mendukung produk existing dan barang baru.",
-    "Pemantauan lokasi karyawan dan driver diperbarui.",
-    "Tampilan update aplikasi lebih informatif dan nyaman digunakan."
+    "Katalog tetap bisa dibuka tanpa internet setelah data pernah tersimpan.",
+    "Foto katalog disimpan di perangkat agar tidak perlu diunduh berulang kali.",
+    "Tampilan HPP kini lebih jelas berdasarkan lapisan FIFO.",
+    "Penerimaan Barang mendukung produk yang sudah ada dan barang baru.",
+    "Pemantauan perjalanan driver dilengkapi peta, jejak perjalanan, dan alamat lokasi.",
+    "Absensi overtime dan perjalanan lintas tengah malam diperbaiki.",
+    "PDF katalog dapat ditinjau terlebih dahulu sebelum disimpan atau dibagikan.",
+    "Navigasi kembali dari detail produk tidak lagi menutup aplikasi.",
+    "Pagination katalog memudahkan berpindah ke halaman awal, akhir, atau nomor tertentu.",
+    "Pemeriksaan pembaruan aplikasi dibuat lebih aman dan tidak mengganggu saat offline."
   ]
 }
