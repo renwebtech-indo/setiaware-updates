@@ -1,14 +1,14 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.20",
-    "releaseDate":  "2026-09-08",
-    "packageFile":  "Setiaware_Update_1.0.20.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.20/Setiaware_Update_1.0.20.zip",
+    "latestVersion":  "1.0.20.1",
+    "releaseDate":  "2026-09-11",
+    "packageFile":  "Setiaware_Update_1.0.20.1.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.20.1/Setiaware_Update_1.0.20.1.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "FIFO retur penjualan kini membentuk layer stok masuk dengan HPP historis dan menjaga granularitas cost per layer.",
-                      "Daftar dan detail retur menampilkan status FIFO serta qty awal, sisa, terpakai, nilai sisa, dan rincian layer.",
-                      "Revisi retur manual memakai HPP detail retur historis; kegagalan simpan tampil aman tanpa exception ke layar."
+                      "Rekap Invoice Driver: pembuatan, edit/hapus draft, detail invoice, dan konfirmasi pengembalian per invoice.",
+                      "PDF Rekap Driver kini memakai format PDF Terpilih Rekap Penjualan yang sama untuk invoice di dalam rekap.",
+                      "Tracking Android disiapkan berbasis Rekap Invoice Driver."
                   ]
 }
