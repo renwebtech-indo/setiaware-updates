@@ -1,23 +1,21 @@
 {
   "appName": "Setiaware",
-  "latestVersion": "1.0.0.3",
-  "latestVersionCode": 10003,
-  "releaseDate": "2026-09-12",
-  "apkFile": "Setiaware-v1.0.0.3.apk",
-  "apkUrl": "https://github.com/renwebtech-indo/setiaware-update-apk/releases/download/v1.0.0.3/Setiaware-v1.0.0.3.apk",
-  "sha256": "02ab9677e7e598d1709a981067b50385f7455c4620a6044c6dc521cffbaa1b37",
+  "latestVersion": "1.0.0.4",
+  "latestVersionCode": 10004,
+  "releaseDate": "2026-09-16",
+  "apkFile": "Setiaware-v1.0.0.4.apk",
+  "apkUrl": "https://github.com/renwebtech-indo/setiaware-update-apk/releases/download/v1.0.0.4/Setiaware-v1.0.0.4.apk",
+  "sha256": "2119115fb576600cf095de109c06bfde6fd2990fb1a3516c14151bd30016136d",
   "forceUpdate": false,
   "minSupportedVersionCode": 10000,
   "changelog": [
-    "Katalog tetap bisa dibuka tanpa internet setelah data pernah tersimpan.",
-    "Foto katalog disimpan di perangkat agar tidak perlu diunduh berulang kali.",
-    "Tampilan HPP kini lebih jelas berdasarkan lapisan FIFO.",
-    "Penerimaan Barang mendukung produk yang sudah ada dan barang baru.",
-    "Pemantauan perjalanan driver dilengkapi peta, jejak perjalanan, dan alamat lokasi.",
-    "Absensi overtime dan perjalanan lintas tengah malam diperbaiki.",
-    "PDF katalog dapat ditinjau terlebih dahulu sebelum disimpan atau dibagikan.",
-    "Navigasi kembali dari detail produk tidak lagi menutup aplikasi.",
-    "Pagination katalog memudahkan berpindah ke halaman awal, akhir, atau nomor tertentu.",
-    "Pemeriksaan pembaruan aplikasi dibuat lebih aman dan tidak mengganggu saat offline."
+    "Barang yang disembunyikan atau dipulihkan di katalog sekarang mengikuti status Katalog Aktif/Nonaktif dengan benar.",
+    "Katalog tidak lagi salah membaca status aktif barang operasional sebagai status tampil di katalog.",
+    "Saat aplikasi dibuka ulang, pesan offline palsu tidak lagi muncul kalau jaringan dan server sebenarnya normal.",
+    "Angka stok di katalog sekarang tampil bulat tanpa koma.",
+    "Katalog yang sudah tersimpan di HP tidak langsung dianggap kosong setelah aplikasi diperbarui.",
+    "Tutorial dashboard tidak muncul otomatis setiap kali dashboard dibuka.",
+    "Tampilan HPP FIFO di katalog sekarang menampilkan daftar qty dan harga layer dengan lebih jelas.",
+    "Kalau total layer FIFO berbeda dengan stok produk, pesan peringatan sekarang menampilkan total layer dan stoknya."
   ]
 }
