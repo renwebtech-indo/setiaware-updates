@@ -1,21 +1,18 @@
 {
   "appName": "Setiaware",
-  "latestVersion": "1.0.0.4",
-  "latestVersionCode": 10004,
+  "latestVersion": "1.0.0.5",
+  "latestVersionCode": 10005,
   "releaseDate": "2026-09-16",
-  "apkFile": "Setiaware-v1.0.0.4.apk",
-  "apkUrl": "https://github.com/renwebtech-indo/setiaware-update-apk/releases/download/v1.0.0.4/Setiaware-v1.0.0.4.apk",
-  "sha256": "2119115fb576600cf095de109c06bfde6fd2990fb1a3516c14151bd30016136d",
+  "apkFile": "Setiaware-v1.0.0.5.apk",
+  "apkUrl": "https://github.com/renwebtech-indo/setiaware-update-apk/releases/download/v1.0.0.5/Setiaware-v1.0.0.5.apk",
+  "sha256": "708f91f9d9171fd5e73da800c515c1cad4d84e4e593d243e35ddc71bfbad3a91",
   "forceUpdate": false,
   "minSupportedVersionCode": 10000,
   "changelog": [
-    "Barang yang disembunyikan atau dipulihkan di katalog sekarang mengikuti status Katalog Aktif/Nonaktif dengan benar.",
-    "Katalog tidak lagi salah membaca status aktif barang operasional sebagai status tampil di katalog.",
-    "Saat aplikasi dibuka ulang, pesan offline palsu tidak lagi muncul kalau jaringan dan server sebenarnya normal.",
-    "Angka stok di katalog sekarang tampil bulat tanpa koma.",
-    "Katalog yang sudah tersimpan di HP tidak langsung dianggap kosong setelah aplikasi diperbarui.",
-    "Tutorial dashboard tidak muncul otomatis setiap kali dashboard dibuka.",
-    "Tampilan HPP FIFO di katalog sekarang menampilkan daftar qty dan harga layer dengan lebih jelas.",
-    "Kalau total layer FIFO berbeda dengan stok produk, pesan peringatan sekarang menampilkan total layer dan stoknya."
+    "Urutan katalog sekarang mengikuti pilihan pengguna dengan lebih konsisten.",
+    "Pilihan A-Z, Z-A, produk terbaru, produk baru diubah, stok terbanyak, dan stok tersedikit selain nol diperbaiki.",
+    "Barang yang disembunyikan atau dipulihkan di katalog tetap berada di status yang benar setelah sinkronisasi.",
+    "Katalog Aktif dan Katalog Nonaktif sekarang mengikuti status katalog dari server.",
+    "Tampilan katalog dibuat lebih stabil setelah aplikasi diperbarui."
   ]
 }
