@@ -1,18 +1,16 @@
 {
   "appName": "Setiaware",
-  "latestVersion": "1.0.0.5",
-  "latestVersionCode": 10005,
+  "latestVersion": "1.0.0.6",
+  "latestVersionCode": 10006,
   "releaseDate": "2026-09-16",
-  "apkFile": "Setiaware-v1.0.0.5.apk",
-  "apkUrl": "https://github.com/renwebtech-indo/setiaware-update-apk/releases/download/v1.0.0.5/Setiaware-v1.0.0.5.apk",
-  "sha256": "708f91f9d9171fd5e73da800c515c1cad4d84e4e593d243e35ddc71bfbad3a91",
+  "apkFile": "Setiaware-v1.0.0.6.apk",
+  "apkUrl": "https://github.com/renwebtech-indo/setiaware-update-apk/releases/download/v1.0.0.6/Setiaware-v1.0.0.6.apk",
+  "sha256": "03e2fd9cea4c9793424e71827d866e7cb2660e2512e811d734335634277966d2",
   "forceUpdate": false,
   "minSupportedVersionCode": 10000,
   "changelog": [
-    "Urutan katalog sekarang mengikuti pilihan pengguna dengan lebih konsisten.",
-    "Pilihan A-Z, Z-A, produk terbaru, produk baru diubah, stok terbanyak, dan stok tersedikit selain nol diperbaiki.",
-    "Barang yang disembunyikan atau dipulihkan di katalog tetap berada di status yang benar setelah sinkronisasi.",
-    "Katalog Aktif dan Katalog Nonaktif sekarang mengikuti status katalog dari server.",
-    "Tampilan katalog dibuat lebih stabil setelah aplikasi diperbarui."
+    "Urutan Produk terbaru di katalog sekarang mengikuti tanggal produk dibuat.",
+    "Tanggal katalog dari server dibaca lebih aman agar urutan tidak salah.",
+    "Pilihan Produk baru diubah tetap mengikuti tanggal terakhir produk diperbarui."
   ]
 }
