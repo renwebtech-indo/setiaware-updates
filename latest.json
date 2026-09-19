@@ -1,14 +1,15 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.20.1",
-    "releaseDate":  "2026-09-11",
-    "packageFile":  "Setiaware_Update_1.0.20.1.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.20.1/Setiaware_Update_1.0.20.1.zip",
+    "latestVersion":  "1.0.20.2",
+    "releaseDate":  "2026-09-19",
+    "packageFile":  "Setiaware_Update_1.0.20.2.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.20.2/Setiaware_Update_1.0.20.2.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "Rekap Invoice Driver: pembuatan, edit/hapus draft, detail invoice, dan konfirmasi pengembalian per invoice.",
-                      "PDF Rekap Driver kini memakai format PDF Terpilih Rekap Penjualan yang sama untuk invoice di dalam rekap.",
-                      "Tracking Android disiapkan berbasis Rekap Invoice Driver."
+                      "Rekap Penjualan Excel sekarang memecah invoice mengikuti grouping 15 item per halaman.",
+                      "Export menambahkan kolom Sales, Wilayah, pembayaran, retur/potongan, HPP, laba, dan PKP/NON PKP.",
+                      "Laba pada export tidak ditampilkan sebagai nilai minus.",
+                      "Keterangan invoice lunas menampilkan tanggal pelunasan; invoice free/Rp0 memakai tanggal invoice."
                   ]
 }
