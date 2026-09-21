@@ -1,15 +1,12 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.20.2",
-    "releaseDate":  "2026-09-19",
-    "packageFile":  "Setiaware_Update_1.0.20.2.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.20.2/Setiaware_Update_1.0.20.2.zip",
+    "latestVersion":  "1.0.20.3",
+    "releaseDate":  "2026-09-21",
+    "packageFile":  "Setiaware_Update_1.0.20.3.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.20.3/Setiaware_Update_1.0.20.3.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "Rekap Penjualan Excel sekarang memecah invoice mengikuti grouping 15 item per halaman.",
-                      "Export menambahkan kolom Sales, Wilayah, pembayaran, retur/potongan, HPP, laba, dan PKP/NON PKP.",
-                      "Laba pada export tidak ditampilkan sebagai nilai minus.",
-                      "Keterangan invoice lunas menampilkan tanggal pelunasan; invoice free/Rp0 memakai tanggal invoice."
+                      "Konversi qty retur kini menerima input PCS lalu otomatis menyesuaikan satuan Lusin dan Box saat disimpan.\nRevisi invoice kini menyimpan perubahan status PKP atau NON-PKP beserta perhitungan pajaknya.\nFIFO diperkuat: revisi GRN kini menjaga stok dan layer FIFO bersama, perubahan stok langsung dari Master Produk ditahan, dan Status FIFO menampilkan daftar selisih stok vs layer."
                   ]
 }
