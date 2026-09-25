@@ -1,12 +1,15 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.20.3",
-    "releaseDate":  "2026-09-21",
-    "packageFile":  "Setiaware_Update_1.0.20.3.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.20.3/Setiaware_Update_1.0.20.3.zip",
+    "latestVersion":  "1.0.20.4",
+    "releaseDate":  "2026-09-25",
+    "packageFile":  "Setiaware_Update_1.0.20.4.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.20.4/Setiaware_Update_1.0.20.4.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "Konversi qty retur kini menerima input PCS lalu otomatis menyesuaikan satuan Lusin dan Box saat disimpan.\nRevisi invoice kini menyimpan perubahan status PKP atau NON-PKP beserta perhitungan pajaknya.\nFIFO diperkuat: revisi GRN kini menjaga stok dan layer FIFO bersama, perubahan stok langsung dari Master Produk ditahan, dan Status FIFO menampilkan daftar selisih stok vs layer."
+                      "Pembayaran Supplier mendukung pembayaran bertahap dengan nominal yang dapat diedit dan tetap dibatasi sisa tagihan.",
+                      "Tanggal SO ulangan atau pending mengikuti tanggal SO pertama.",
+                      "Sales Order berstatus draft atau pending dapat dihapus permanen dari database lokal beserta detailnya tanpa hosting sync; SO yang sudah terkait invoice, surat jalan, retur, atau pergerakan stok ditahan.",
+                      "PDF Retur Barang menampilkan qty retur, harga satuan, dan nilai barang."
                   ]
 }
