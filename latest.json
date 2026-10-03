@@ -1,15 +1,15 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.20.4",
-    "releaseDate":  "2026-09-25",
-    "packageFile":  "Setiaware_Update_1.0.20.4.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.20.4/Setiaware_Update_1.0.20.4.zip",
+    "latestVersion":  "1.0.20.6",
+    "releaseDate":  "2026-10-04",
+    "packageFile":  "Setiaware_Update_1.0.20.6.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.20.6/Setiaware_Update_1.0.20.6.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "Pembayaran Supplier mendukung pembayaran bertahap dengan nominal yang dapat diedit dan tetap dibatasi sisa tagihan.",
-                      "Tanggal SO ulangan atau pending mengikuti tanggal SO pertama.",
-                      "Sales Order berstatus draft atau pending dapat dihapus permanen dari database lokal beserta detailnya tanpa hosting sync; SO yang sudah terkait invoice, surat jalan, retur, atau pergerakan stok ditahan.",
-                      "PDF Retur Barang menampilkan qty retur, harga satuan, dan nilai barang."
+                      "Pemulihan jurnal otomatis untuk pembayaran supplier validated yang belum memiliki jurnal, dengan pemeriksaan duplikasi per payment.",
+                      "Menambahkan indikator progres dan pesan mohon tunggu saat pemulihan jurnal berjalan.",
+                      "Export Excel Laporan Rekap Penjualan kini memakai Area Toko customer pada kolom wilayah.",
+                      "Revisi Ganti Barang invoice tervalidasi menjaga pelepasan dan konsumsi FIFO dalam satu transaksi serta memulihkan tampilan setelah rollback."
                   ]
 }
