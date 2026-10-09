@@ -1,15 +1,14 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.20.6",
-    "releaseDate":  "2026-10-04",
-    "packageFile":  "Setiaware_Update_1.0.20.6.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.20.6/Setiaware_Update_1.0.20.6.zip",
+    "latestVersion":  "1.0.20.7",
+    "releaseDate":  "2026-10-05",
+    "packageFile":  "Setiaware_Update_1.0.20.7.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.20.7/Setiaware_Update_1.0.20.7.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "Pemulihan jurnal otomatis untuk pembayaran supplier validated yang belum memiliki jurnal, dengan pemeriksaan duplikasi per payment.",
-                      "Menambahkan indikator progres dan pesan mohon tunggu saat pemulihan jurnal berjalan.",
-                      "Export Excel Laporan Rekap Penjualan kini memakai Area Toko customer pada kolom wilayah.",
-                      "Revisi Ganti Barang invoice tervalidasi menjaga pelepasan dan konsumsi FIFO dalam satu transaksi serta memulihkan tampilan setelah rollback."
+                      "Invoice VALIDATED dengan total Rp0 dapat diselesaikan melalui Terima Pembayaran; setelah Simpan status menjadi PAID tanpa jurnal pembayaran.",
+                      "Menu Terima Pembayaran tersedia untuk invoice total Rp0 yang ditampilkan PAID, selama status tersimpan di database masih VALIDATED.",
+                      "Buku Besar menampilkan Penerimaan Pembayaran beserta kode invoice dan nama customer; deskripsi pembayaran supplier tetap jelas tanpa teks generik Kas atau Bank dibayar."
                   ]
 }
