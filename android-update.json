@@ -1,16 +1,16 @@
 {
   "appName": "Setiaware",
-  "latestVersion": "1.0.0.6",
-  "latestVersionCode": 10006,
-  "releaseDate": "2026-09-16",
-  "apkFile": "Setiaware-v1.0.0.6.apk",
-  "apkUrl": "https://github.com/renwebtech-indo/setiaware-update-apk/releases/download/v1.0.0.6/Setiaware-v1.0.0.6.apk",
-  "sha256": "03e2fd9cea4c9793424e71827d866e7cb2660e2512e811d734335634277966d2",
+  "latestVersion": "1.0.0.7",
+  "latestVersionCode": 10007,
+  "releaseDate": "2026-10-27",
+  "apkFile": "Setiaware-v1.0.0.7.apk",
+  "apkUrl": "https://github.com/renwebtech-indo/setiaware-update-apk/releases/download/v1.0.0.7/Setiaware-v1.0.0.7.apk",
+  "sha256": "28ed9696f9ea1333ec4917c1099cdc3369472503473896a8c55117e92c83bdba",
   "forceUpdate": false,
   "minSupportedVersionCode": 10000,
   "changelog": [
-    "Urutan Produk terbaru di katalog sekarang mengikuti tanggal produk dibuat.",
-    "Tanggal katalog dari server dibaca lebih aman agar urutan tidak salah.",
-    "Pilihan Produk baru diubah tetap mengikuti tanggal terakhir produk diperbarui."
+    "Dashboard Owner menampilkan ringkasan Nilai Stok FIFO dan status selisih stok.",
+    "Laporan Omset Sales dirapikan mengikuti rekap bulanan dan tabel biaya.",
+    "Penyempurnaan sesi login dan tampilan HPP katalog tetap disertakan."
   ]
 }
