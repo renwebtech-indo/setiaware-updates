@@ -1,13 +1,12 @@
 {
     "appName":  "Setiaware",
-    "latestVersion":  "1.0.20.9",
-    "releaseDate":  "2026-11-12",
-    "packageFile":  "Setiaware_Update_1.0.20.9.zip",
-    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.20.9/Setiaware_Update_1.0.20.9.zip",
+    "latestVersion":  "1.0.21",
+    "releaseDate":  "2026-11-23",
+    "packageFile":  "Setiaware_Update_1.0.21.zip",
+    "packageUrl":  "https://github.com/renwebtech-indo/setiaware-updates/releases/download/v1.0.21/Setiaware_Update_1.0.21.zip",
     "requiresRestart":  true,
     "overwriteConfig":  false,
     "changelog":  [
-                      "Update checker otomotis berjalan saat splash screen; kegagalan koneksi tidak menghalangi login dan pemasangan tetap memerlukan persetujuan pengguna.",
-                      "Pembaruan lintas modul penjualan, pembelian, stok/FIFO, retur, invoice, pembayaran, akuntansi, absensi, payroll, sinkronisasi, laporan, dan antarmuka mengikuti seluruh source aktif pada release ini."
+                      "Perbaikan Status FIFO: tombol Preview \u0026 Simpan kini menghindari error evaluasi query EF Core saat memeriksa alokasi invoice revisi; validasi dan proses rekonsiliasi tetap mengikuti aturan yang ada."
                   ]
 }
